@@ -1,19 +1,19 @@
 import { Tree } from "./Tree";
 export class House {
-     name: string;
-     trees: Tree[] = [];
+  name: string;
+  trees: Tree[] = [];
 
-     constructor(name: string) {
-          this.name = name;
-     }
+  constructor(name: string) {
+    this.name = name;
+  }
 
-     addTree(tree: Tree) {
-          this.trees.push(tree);
-     }
+  addTree(tree: Tree) {
+    this.trees.push(tree);
+  }
 
-     getNumberOftree(): number {
-          return this.trees.length;
-     }
+  getNumberOftree(): number {
+    return this.trees.length;
+  }
 }
 
 let house = new House("ronan");

@@ -1,7 +1,7 @@
 export class Tree {
-     size: number;
+  size: number;
 
-     constructor(size: number) {
-          this.size = size;
-     }
+  constructor(size: number) {
+    this.size = size;
+  }
 }
